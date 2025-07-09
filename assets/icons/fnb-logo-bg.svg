@@ -1,0 +1,11 @@
+<svg id="fnb-logo-bg" width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fnbGradient" x1="0" y1="0" x2="400" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e67e22"/>
+      <stop offset="1" stop-color="#fff3e0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="60" cy="60" rx="50" ry="50" fill="url(#fnbGradient)" opacity="0.18"/>
+  <rect x="320" y="30" width="60" height="60" rx="18" fill="#e67e22" opacity="0.12"/>
+  <text x="100" y="80" font-family="Montserrat, Arial, sans-serif" font-size="56" font-weight="bold" fill="#e67e22" opacity="0.25">F&amp;B Shop</text>
+</svg>

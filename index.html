@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B Shop | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">F&B Shop</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="h1-logo-bg">
+                    <img src="assets/icons/fnb-logo-bg.svg" alt="F&B Shop Logo Background" class="fnb-logo-bg" aria-hidden="true" />
+                    <h1>Welcome to F&B Shop</h1>
+                </div>
+                <p>Your one-stop shop for delicious food & refreshing beverages.</p>
+                <a href="products.html" class="btn cta">Shop Now</a>
+            </div>
+        </section>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="assets/images/product1.png" alt="Product 1">
+                    <h3>Fresh Orange Juice</h3>
+                    <p class="price">$4.99</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="assets/images/product2.png" alt="Product 2">
+                    <h3>Classic Burger</h3>
+                    <p class="price">$7.99</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="assets/images/product3.png" alt="Product 3">
+                    <h3>Veggie Salad Bowl</h3>
+                    <p class="price">$6.49</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section">
+            <h2>Order Online & Enjoy Fast Delivery!</h2>
+            <a href="products.html" class="btn">Browse Menu</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@fnbshop.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>123 Food Street, Flavor Town</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 F&B Shop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Mobile nav toggle
+        document.querySelector('.nav-toggle').onclick = function() {
+            document.querySelector('.nav-links').classList.toggle('open');
+        };
+        // Active link indicator
+        const links = document.querySelectorAll('.nav-links a');
+        links.forEach(link => {
+            if(link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
