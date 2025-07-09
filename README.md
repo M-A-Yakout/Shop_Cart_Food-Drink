@@ -2,6 +2,10 @@
 
 This is a simple and modern website for a Food & Beverage (F&B) shop. It's a static website built with HTML, CSS, and a little bit of JavaScript. The design is clean, responsive, and focused on showcasing products to customers.
 
+## Live Demo
+
+[Click here to view the live site](https://m-a-yakout.github.io/Shop_Cart_Food-Drink/index.html)
+
 ## Features
 
 - **Homepage:** Welcomes visitors with a hero section and displays featured products.
